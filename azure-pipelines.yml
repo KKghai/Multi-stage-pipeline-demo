@@ -5,7 +5,7 @@ stages:
     steps:
     - script: echo "hello to my first Job of 1st Stage"
     - task: Delay@1
-         inputs:
+    inputs:
          #delayForMinutes: '1'
 - stage: Stage2
   jobs:
@@ -13,5 +13,5 @@ stages:
     steps:
     - script: echo "hello to my first Job of second stage"
     - task: Delay@1
-         inputs:
+    inputs:
          #delayForMinutes: '1'
